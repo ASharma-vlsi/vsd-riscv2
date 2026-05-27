@@ -11,7 +11,7 @@ The GPIO peripheral uses:
 localparam IO_GPIO_bit = 3;
 for address decoding.
 
-#How CPU accesses the IP
+# How CPU accesses the IP
 The CPU accesses the GPIO IP using standard memory-mapped read and write operations over the SoC memory bus.
 
 ## Write Operation
