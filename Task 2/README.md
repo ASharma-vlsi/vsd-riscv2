@@ -61,3 +61,12 @@ near the top with:
 ```
 
 ## Step 4: Validate using Simulation
+
+![Simulation using gtkwave](Screenshots/GTKwavesimulation(Task2).png)
+
+<img width="1920" height="819" alt="testbenchoutput(task2)" src="https://github.com/user-attachments/assets/fdef0871-f7a2-4694-86b2-70ae36116221" />
+
+## Step 5: Hardware Validation
+
+<img width="1080" height="585" alt="share_4363430177738740694" src="https://github.com/user-attachments/assets/5b2c2657-afd9-4ba6-892f-e266bb0d80e7" />
+
