@@ -1,6 +1,6 @@
 # Timer IP User Guide
 
-## 1. IP Overview
+## IP Overview
 
 ### Purpose
 
@@ -27,8 +27,6 @@ Examples include:
 * Implementing simple software schedulers
 
 ---
-
-## 2. Feature Summary
 
 ### Supported Features
 
@@ -63,7 +61,6 @@ The timer counts down to zero, reloads the programmed value automatically, and c
 * No interrupt generation support
 * Polling-based operation
 * No programmable prescaler
-* Maximum count limited to 32-bit register width
 * Assumes a stable system clock source
 
 ---
@@ -72,7 +69,7 @@ The timer counts down to zero, reloads the programmed value automatically, and c
 
 The Timer IP consists of a register interface, control logic, countdown counter, and status generation logic.
 
-![Uploading image.png…]()
+<img width="4425" height="2676" alt="Blank diagram" src="https://github.com/user-attachments/assets/a1e646b8-8230-43bf-b826-b248a9c87933" />
 
 ### Functional Flow
 
