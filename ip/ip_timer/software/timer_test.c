@@ -1,4 +1,4 @@
-// timer_test.c — Heartbeat blink using Timer IP
+// timer_test.c — LED blink using Timer IP
 
 #define TIMER_BASE   0x20001000
 
@@ -8,19 +8,19 @@
 #define TIMER_STAT   (*(volatile unsigned int *)(TIMER_BASE + 0x0C))
 
 // For SIMULATION (fast)
-#define HEARTBEAT_INTERVAL 10
+#define BLINK_INTERVAL 10
 
 //FOR HARDWARE
-#define HEARTBEAT_INTERVAL 6000000   // ~0.5s @ 12 MHz
+#define BLINK_INTERVAL 6000000   // ~0.5s @ 12 MHz
 
 
 // For FPGA (uncomment when flashing)
-// #define HEARTBEAT_INTERVAL 6000000   // ~0.5s @ 12 MHz
+// #define BLINK_INTERVAL 6000000   // ~0.5s @ 12 MHz
 
 int main(void)
 {
     // Load timer value
-    TIMER_LOAD = HEARTBEAT_INTERVAL;
+    TIMER_LOAD = BLINK_INTERVAL;
 
     // Enable timer: bit0=en, bit1=periodic
     TIMER_CTRL = 0x1;
