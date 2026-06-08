@@ -151,9 +151,3 @@ Verified through:
 * Polling-based operation
 * No programmable prescaler
 * Maximum count limited to 32 bits
-
----
-
-## License
-
-Developed as part of the VSDSquadron FPGA IP Development Program.
